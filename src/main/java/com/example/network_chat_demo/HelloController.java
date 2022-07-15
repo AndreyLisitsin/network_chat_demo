@@ -12,6 +12,9 @@ import javafx.scene.control.TextField;
 
 public class HelloController {
 
+    /*  случайно всё создал в мастере, решил сюда что-то добавить для возможности создать ПР
+    */
+
     @FXML
     private ResourceBundle resources;
 
@@ -36,7 +39,10 @@ public class HelloController {
 
     @FXML
     void initialize() {
-
         usersList.getItems().add(new User("Andrey").getName());
+    }
+
+    private void print(){
+        // nothing to do
     }
 }

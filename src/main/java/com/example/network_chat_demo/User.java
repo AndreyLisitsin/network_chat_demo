@@ -1,6 +1,10 @@
 package com.example.network_chat_demo;
 
 public class User {
+
+    /*
+        Class for users...
+    */
     private String name;
     private String nickName;
     private String password;
